@@ -1,0 +1,31 @@
+
+#vertical {
+    rotate: 90deg;
+    transform-origin: 0 0;
+    margin-left: 8rem;
+    margin-top:2rem;
+    line-height:3rem;
+    font-size: 3rem;
+    font-weight: bold;
+    width: 220px;
+}
+
+p {
+    font-size: 0.8rem;
+    margin-bottom:0.2rem;
+}
+
+ul {
+    font-size: 0.8rem;
+    list-style-type: none;
+    padding: 0;
+}
+
+.contain {
+ margin-top: 8rem;
+ margin-left: 2rem;
+}
+
+body {
+    margin-right: 2rem;
+}
