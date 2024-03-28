@@ -1,0 +1,37 @@
+---
+layout: home
+title: {{work.title}}
+---
+<div class="work-list mobile">
+    <ul class="work-list-ul">
+        {% assign worklist = site.data.works_list.works | sort: "year" | reverse %}
+        {% for item in worklist %}
+         
+            <li class="work-list-li ">
+                <a href="{{ item.url }}" class="{% if item.url == page.url %}active{% endif %}">{{ item.title }}</a>
+            </li>
+          
+        {% endfor %}
+        <li class="work-list-li">
+            <a href="">Rani Siva Sankara Sarma</a>
+          </li>
+      </ul>
+</div>
+
+<div class="content">
+<div class="page">
+    {% if page.image %}
+        <img src="{{ site.baseurl }}{{ page.image }}" class="img-fluid" alt="cover">
+    {% endif %}
+    <a class="" href="{{ tag.url }}"> {% for tag in page.tags %}{{ tag | append: " " }}{% endfor %}</a>
+    <div class="">{{ content }}</div>
+
+   
+    
+
+
+
+    
+
+</div>
+</div>
