@@ -1,30 +1,37 @@
 [
   {
+    "title": "testing webhook",
+    "slug": "testing-webhook",
+    "category": false,
+    "coverImage": null,
+    "content": ""
+  },
+  {
     "title": "Create your own content",
     "slug": "create-your-own-content",
     "category": "General",
     "coverImage": "/images/citing-a-margin.png",
-    "content": "<p>Start writing your own content or edit the current to fit your needs. To create, edit or remove content you need to login to the <a href=\"https://jitsi.navanudi.com/admin/edit-content/admin/\">admin panel</a> with the username `admin` and the password you set in the installation process.</p>\n<p><img src=\"https://jitsi.navanudi.com/bl-content/uploads/pages/438da7450c3cdfa338e0d728096826dc/fsfe-open-source-for-privacy-colour.gif\" alt=\"\"></p>\n<ol>\n<li>hello</li>\n<li>world</li>\n<li>is</li>\n<li>a</li>\n<li>list</li>\n</ol>"
+    "content": ""
   },
   {
     "title": "Set up your new site",
     "slug": "set-up-your-new-site",
     "category": "General",
     "coverImage": "/images/3250616.webp",
-    "content": "<p>Update the settings of your site from the <a href=\"https://jitsi.navanudi.com/admin/edit-content/admin/\">admin panel</a>, you can change the title, description and the social networks from <a href=\"https://jitsi.navanudi.com/admin/edit-content/admin/settings\">Settings &gt; General</a>.</p>"
+    "content": ""
   },
   {
     "title": "Follow Bludit",
     "slug": "follow-bludit",
     "category": "General",
     "coverImage": "/images/TN24_poster_flyer.gif",
-    "content": "<p>Get information about news, new releases, new themes or new plugins on our social networks <a href=\"https://www.facebook.com/bluditcms/\" target=\"_blank\" rel=\"noopener\">Facebook</a>, <a href=\"https://www.twitter.com/bludit/\" target=\"_blank\" rel=\"noopener\">Twitter</a> and <a href=\"https://www.youtube.com/c/Bluditcms\" target=\"_blank\" rel=\"noopener\">YouTube</a> or visit our <a href=\"https://blog.bludit.com\" target=\"_blank\" rel=\"noopener\">Blog</a>.</p>"
+    "content": ""
   },
   {
     "title": "About",
     "slug": "about",
     "category": "General",
     "coverImage": null,
-    "content": "<p>Your About page is typically one of the most visited pages on your site, need to be simple with a few key things, such as your name, who are you, how can contact you, a small story, etc.</p>"
+    "content": ""
   }
 ]
