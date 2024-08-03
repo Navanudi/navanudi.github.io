@@ -5,7 +5,8 @@ require('dotenv').config(); // Load environment variables
 const https = require('https'); // Required for downloading images
 const { URL } = require('url'); // Required to parse URLs
 
-const { API_URL, API_TOKEN } = process.env;
+const API_URL = process.env.API_URL; // Using environment variable
+const API_TOKEN = process.env.API_TOKEN; // Using environment variable
 const OUTPUT_DIR = 'src/pages';
 const IMAGES_DIR = 'src/images';
 const DATA_FILE = 'src/_data/bludit.json'; // Path to the JSON file
