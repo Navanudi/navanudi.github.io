@@ -1,0 +1,17 @@
+* {
+    font-family: sans-serif;
+}
+
+.container {
+    column-count: 2;
+    column-width: 300px;
+}
+
+.cover-image {
+    display: inline-block;
+    width: 100%;
+}
+
+img {
+    width: 100%;
+}

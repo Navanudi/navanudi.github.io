@@ -1,0 +1,22 @@
+<!-- src/index.njk -->
+{% extends "./_includes/base.njk" %}
+
+{% block content %}
+<h1>Hello, Eleventy!</h1>
+<p>Welcome to your Eleventy project.</p>
+
+<div class="container">
+  {% for page in collections.pages %}
+     
+      {% if page.data.coverImage %}
+        <div class="cover-image">
+          <img src="{{ page.data.coverImage }}" alt="{{ page.data.title }}">
+          <div class="title"><a href="/pages/{{ page.data.slug }}/">{{ page.data.title }}</a></div>
+        </div>
+       
+      {% endif %}
+
+  {% endfor %}
+</div>
+
+{% endblock %}

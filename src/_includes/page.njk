@@ -1,0 +1,20 @@
+<!-- src/_includes/page.njk -->
+{% extends "./base.njk" %}
+
+{% block content %}
+  <article>
+    <h1>{{ title }}</h1>
+    
+    {% if page.category %}
+    <p>{{ page.category }}</p>
+    {% endif %}
+
+    {% if coverImage %}
+      <img src="{{ coverImage }}" alt="{{ title }}">
+    {% endif %}
+    <div class="content">
+      {{ content | safe }}
+      
+    </div>
+  </article>
+{% endblock %}

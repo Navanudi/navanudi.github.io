@@ -1,0 +1,18 @@
+<!-- src/pages.njk -->
+{% extends "./_includes/base.njk" %}
+
+{% block content %}
+  <h1>News</h1>
+  <ul>
+    {% for page in collections.pages %}
+      {% if page.data.slug != "about" %}  <!-- Exclude the page with slug "about" -->
+        <li>
+          <h2>{{ page.data.title }}</h2>
+          <p>{{ page.data.description }}</p>
+          <a href="/pages/{{ page.data.slug }}/">Read more</a>
+          {{ page.data.category }}
+        </li>
+      {% endif %}
+    {% endfor %}
+  </ul>
+{% endblock %}
