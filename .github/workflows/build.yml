@@ -21,6 +21,11 @@ jobs:
     - name: Install dependencies
       run: npm install
 
+    - name: Print environment variables
+      run: |
+        echo "API_URL=${{ secrets.API_URL }}"
+        echo "API_TOKEN=${{ secrets.API_TOKEN }}"
+
     - name: Fetch and build
       run: npm run build
       env:
